@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Page</title>
+    <style>
+        header {
+            color: #5900fd;
+        }
+
+        body {
+            background: paleturquoise;
+        }
+
+        table {
+            color: rgb(42, 22, 114);
+            background: palevioletred;
+        }
+
+        button {
+            background: rgb(68, 0, 255);
+            color: aliceblue;
+        }
+
+        .form2 {
+            background: #d3b5b5;
+            color: black;
+        }
+
+        button:hover {
+            color: black;
+            background: #00fd54;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;"> LOGIN PAGE</h1>
+    </header>
+    <main>
+        <form action="./login" method="post">
+            <table border="1" align="center">
+                <tr>
+                    <th>Enter Your Email <input type="text" placeholder="Enter Your Email" name="email"> </th>
+                </tr>
+                <tr>
+                    <th>Enter Your Password <input type="password" placeholder="Enter Your Password" name="password">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button type="reset">Reset</button>
+                        <button type="submit" name="submit">Submit</button>
+                    </th>
+                </tr>
+            </table>
+        </form>
+        <form action="./forget.html" method="get">
+            <table align="center" class="form2">
+                <tr>
+                    <th>
+                        <button type="submit">forget Password</button>
+                        </h6>
+                    </th>
+                </tr>
+            </table>
+        </form>
+        <form action="./index.html">
+            <table align="center" class="form2">
+                <tr>
+                    <th>
+                        if don't have have account
+                        <button type="submit">Registration</button>
+                        </h6>
+                    </th>
+                </tr>
+            </table>
+        </form>
+
+
+    </main>
+</body>
+
+</html>
